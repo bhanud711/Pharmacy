@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8337" started-at="2021-04-14T16:49:16Z" finished-at="2021-04-14T16:49:24Z">
+  <suite name="Default suite" duration-ms="23031" started-at="2021-04-14T16:58:11Z" finished-at="2021-04-14T16:58:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8337" started-at="2021-04-14T16:49:16Z" finished-at="2021-04-14T16:49:24Z">
-      <class name="com.medicine.MediPlusTest">
-        <test-method status="PASS" signature="mediPlusHome()[pri:0, instance:com.medicine.MediPlusTest@19bb089b]" name="mediPlusHome" duration-ms="8316" started-at="2021-04-14T22:19:16Z" finished-at="2021-04-14T22:19:24Z">
+    <test name="Default test" duration-ms="23031" started-at="2021-04-14T16:58:11Z" finished-at="2021-04-14T16:58:34Z">
+      <class name="com.medicine.IEMediPlusTest">
+        <test-method status="PASS" signature="iEMediPlus()[pri:0, instance:com.medicine.IEMediPlusTest@11531931]" name="iEMediPlus" duration-ms="23015" started-at="2021-04-14T22:28:11Z" finished-at="2021-04-14T22:28:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mediPlusHome -->
-      </class> <!-- com.medicine.MediPlusTest -->
+        </test-method> <!-- iEMediPlus -->
+      </class> <!-- com.medicine.IEMediPlusTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
