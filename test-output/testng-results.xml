@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34047" started-at="2021-05-08T16:44:01Z" finished-at="2021-05-08T16:44:35Z">
+  <suite name="Suite" duration-ms="125606" started-at="2021-05-08T16:48:38Z" finished-at="2021-05-08T16:50:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34047" started-at="2021-05-08T16:44:01Z" finished-at="2021-05-08T16:44:35Z">
+    <test name="Test" duration-ms="125606" started-at="2021-05-08T16:48:38Z" finished-at="2021-05-08T16:50:44Z">
+      <class name="com.medicine.SearchProductTest">
+        <test-method status="PASS" signature="eneterProduct()[pri:0, instance:com.medicine.SearchProductTest@45c8e616]" name="eneterProduct" duration-ms="11411" started-at="2021-05-08T22:18:38Z" finished-at="2021-05-08T22:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eneterProduct -->
+      </class> <!-- com.medicine.SearchProductTest -->
+      <class name="com.medicine.MediPlusTest">
+        <test-method status="PASS" signature="mediPlusHome()[pri:0, instance:com.medicine.MediPlusTest@7cf10a6f]" name="mediPlusHome" duration-ms="15455" started-at="2021-05-08T22:18:49Z" finished-at="2021-05-08T22:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mediPlusHome -->
+      </class> <!-- com.medicine.MediPlusTest -->
+      <class name="com.medicine.IEMediPlusTest">
+        <test-method status="PASS" signature="iEMediPlus()[pri:0, instance:com.medicine.IEMediPlusTest@6debcae2]" name="iEMediPlus" duration-ms="63421" started-at="2021-05-08T22:19:40Z" finished-at="2021-05-08T22:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iEMediPlus -->
+      </class> <!-- com.medicine.IEMediPlusTest -->
       <class name="com.medicine.LoginWithValidUser">
-        <test-method status="PASS" signature="loginValid()[pri:0, instance:com.medicine.LoginWithValidUser@19bb089b]" name="loginValid" duration-ms="34017" started-at="2021-05-08T22:14:01Z" finished-at="2021-05-08T22:14:35Z">
+        <test-method status="PASS" signature="loginValid()[pri:0, instance:com.medicine.LoginWithValidUser@7e0babb1]" name="loginValid" duration-ms="35296" started-at="2021-05-08T22:19:05Z" finished-at="2021-05-08T22:19:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginValid -->
       </class> <!-- com.medicine.LoginWithValidUser -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
