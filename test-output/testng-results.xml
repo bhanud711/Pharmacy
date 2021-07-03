@@ -1,35 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="125606" started-at="2021-05-08T16:48:38Z" finished-at="2021-05-08T16:50:44Z">
+  <suite name="Default suite" duration-ms="96092" started-at="2021-07-03T11:56:55Z" finished-at="2021-07-03T11:58:31Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="125606" started-at="2021-05-08T16:48:38Z" finished-at="2021-05-08T16:50:44Z">
-      <class name="com.medicine.SearchProductTest">
-        <test-method status="PASS" signature="eneterProduct()[pri:0, instance:com.medicine.SearchProductTest@45c8e616]" name="eneterProduct" duration-ms="11411" started-at="2021-05-08T22:18:38Z" finished-at="2021-05-08T22:18:49Z">
+    <test name="Default test" duration-ms="96092" started-at="2021-07-03T11:56:55Z" finished-at="2021-07-03T11:58:31Z">
+      <class name="com.medicine.ItemQty">
+        <test-method status="FAIL" signature="itemQty()[pri:0, instance:com.medicine.ItemQty@19bb089b]" name="itemQty" duration-ms="96075" started-at="2021-07-03T17:26:55Z" finished-at="2021-07-03T17:28:31Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='5 (Packs)']"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1E5OSFLE', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\ramar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58275}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5fdda443d21c0042369ec1b37c11b9d
+*** Element info: {Using=xpath, value=//button[text()='5 (Packs)']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='5 (Packs)']"}
+  (Session info: chrome=91.0.4472.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1E5OSFLE', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\ramar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58275}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5fdda443d21c0042369ec1b37c11b9d
+*** Element info: {Using=xpath, value=//button[text()='5 (Packs)']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.medicine.ItemQty.itemQty(ItemQty.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- eneterProduct -->
-      </class> <!-- com.medicine.SearchProductTest -->
-      <class name="com.medicine.MediPlusTest">
-        <test-method status="PASS" signature="mediPlusHome()[pri:0, instance:com.medicine.MediPlusTest@7cf10a6f]" name="mediPlusHome" duration-ms="15455" started-at="2021-05-08T22:18:49Z" finished-at="2021-05-08T22:19:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mediPlusHome -->
-      </class> <!-- com.medicine.MediPlusTest -->
-      <class name="com.medicine.IEMediPlusTest">
-        <test-method status="PASS" signature="iEMediPlus()[pri:0, instance:com.medicine.IEMediPlusTest@6debcae2]" name="iEMediPlus" duration-ms="63421" started-at="2021-05-08T22:19:40Z" finished-at="2021-05-08T22:20:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iEMediPlus -->
-      </class> <!-- com.medicine.IEMediPlusTest -->
-      <class name="com.medicine.LoginWithValidUser">
-        <test-method status="PASS" signature="loginValid()[pri:0, instance:com.medicine.LoginWithValidUser@7e0babb1]" name="loginValid" duration-ms="35296" started-at="2021-05-08T22:19:05Z" finished-at="2021-05-08T22:19:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginValid -->
-      </class> <!-- com.medicine.LoginWithValidUser -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- itemQty -->
+      </class> <!-- com.medicine.ItemQty -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

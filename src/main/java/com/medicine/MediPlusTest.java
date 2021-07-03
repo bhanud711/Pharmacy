@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class MediPlusTest {
-	@Test
+	@Test()
 	public void mediPlusHome()
 	{
 		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");

@@ -3,7 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.medicine.LoginWithValidUser"/>
+      <class name="com.medicine.ItemQty"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.medicine.ItemQty">
+        <methods>
+          <include name="itemQty"/>
+        </methods>
+      </class> <!-- com.medicine.ItemQty -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
