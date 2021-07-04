@@ -57,6 +57,9 @@
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
+          <suiteXmlFiles>
+            <suiteXmlFile>kanika.xml</suiteXmlFile>
+          </suiteXmlFiles>
         </configuration>
       </plugin>
   </plugins>
