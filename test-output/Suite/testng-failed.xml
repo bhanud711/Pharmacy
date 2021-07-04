@@ -3,10 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test">
     <classes>
-      <class name="com.medicine.SearchProductTest"/>
-      <class name="com.medicine.MediPlusTest"/>
+      <class name="com.medicine.InvalidLogin"/>
       <class name="com.medicine.LoginWithValidUser"/>
+      <class name="com.medicine.HealthStoreItems"/>
+      <class name="com.medicine.ItemRemove"/>
+      <class name="com.medicine.SearchProductTest"/>
+      <class name="com.medicine.LabTests"/>
+      <class name="com.medicine.StoreFinder"/>
       <class name="com.medicine.IEMediPlusTest"/>
+      <class name="com.medicine.PurchaseHistory"/>
+      <class name="com.medicine.MediplusLogout"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->

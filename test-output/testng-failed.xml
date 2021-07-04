@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
     <classes>
-      <class name="com.medicine.ItemQty"/>
+      <class name="com.medicine.InvalidLogin"/>
+      <class name="com.medicine.LoginWithValidUser"/>
+      <class name="com.medicine.HealthStoreItems"/>
+      <class name="com.medicine.ItemRemove"/>
+      <class name="com.medicine.SearchProductTest"/>
+      <class name="com.medicine.LabTests"/>
+      <class name="com.medicine.StoreFinder"/>
+      <class name="com.medicine.IEMediPlusTest"/>
+      <class name="com.medicine.PurchaseHistory"/>
+      <class name="com.medicine.MediplusLogout"/>
     </classes>
-  </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="com.medicine.ItemQty">
-        <methods>
-          <include name="itemQty"/>
-        </methods>
-      </class> <!-- com.medicine.ItemQty -->
-    </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

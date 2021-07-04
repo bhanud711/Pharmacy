@@ -8,14 +8,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-public class SearchProductTest {
+public class SearchProductTest extends Screenshot {
 @Test
-public void eneterProduct() throws InterruptedException
+public void searchProduct() throws InterruptedException
 {
 	System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
 	ChromeOptions options = new ChromeOptions();
 	options.addArguments("--disable-notifications");
-	WebDriver driver=new ChromeDriver(options);
+	driver=new ChromeDriver(options);
 	driver.get("https://www.medplusmart.com/");
 	driver.manage().window().maximize();
 	System.out.println(driver.getCurrentUrl());
@@ -33,6 +33,7 @@ public void eneterProduct() throws InterruptedException
 	WebElement searchbar = driver.findElement(By.id("enterval"));
 	searchbar.sendKeys("DOLO 650",Keys.ENTER);
 	Thread.sleep(20000);
+	Screenshot.snap();
 	WebElement product = driver.findElement(By.xpath("//button[text()='Add to Cart']"));
 	product.click();
 }
